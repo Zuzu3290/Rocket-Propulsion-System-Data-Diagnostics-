@@ -10,13 +10,13 @@ The repository is organized as follows:
 
 ## 📁 Repository Structure
 
-- **`Propulsion_System.ipynb`**: This is the **main data science diagnostics script** that performs in-depth analysis of the rocket propulsion system. It investigates key relationships between various performance metrics like combustion temperature, thrust, and specific impulse, laying the groundwork for further analysis.
+- **[`Propulsion_System.ipynb`](./Propulsion_System.ipynb)**: This is the **main data science diagnostics script** that performs in-depth analysis of the rocket propulsion system. It investigates key relationships between various performance metrics like combustion temperature, thrust, and specific impulse, laying the groundwork for further analysis.
 
-- **`Dashboard.ipynb`**: This notebook presents the **main result of the diagnostic analysis**. It generates interactive visualizations and insights into the propulsion system, enabling users to explore key relationships and understand the system’s performance visually.
+- **[`Dashboard.ipynb`](./Dashboard.ipynb)**: This notebook presents the **main result of the diagnostic analysis**. It generates interactive visualizations and insights into the propulsion system, enabling users to explore key relationships and understand the system’s performance visually.
 
-- **`app.py`**: This Python script is used for **Dashbaord visualization**. It launches a web-based dashboard for a more interactive and user-friendly presentation of the data analysis, suitable for real-time exploration and diagnosis.
+- **[`app.py`](./app.py)**: This Python script is used for **Dashboard visualization**. It launches a web-based dashboard for a more interactive and user-friendly presentation of the data analysis, suitable for real-time exploration and diagnosis.
 
-- **`Linear Regression.ipynb`**: This notebook focuses on **progress in building an optimal model** capable of diagnosing combustion system stability during runtime. Using linear regression techniques, it helps predict performance metrics and analyze system behavior under various conditions.
+- **[`Linear_Regression.ipynb`](./Linear_Regression.ipynb)**: This notebook focuses on **progress in building an optimal model** capable of diagnosing combustion system stability during runtime. Using linear regression techniques, it helps predict performance metrics and analyze system behavior under various conditions.
 
 ---
 
@@ -66,6 +66,8 @@ git clone https://github.com/Zuzu3290/Rocket-Propulsion-System-Data-Diagnostics-
 ```Terminal
 python app.py
 ```
+---
+
 ### 📈 Visualizations
 The dashboard generates interactive visualizations, including:
 * Sunburst Charts: For understanding the system composition.
