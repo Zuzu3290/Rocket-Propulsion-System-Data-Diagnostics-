@@ -21,38 +21,23 @@ The repository is organized as follows:
 ---
 
 ## 📊 Data Files
-
 The project uses two primary statistical datasets representing different ambient pressure environments.  
 Both datasets share the **same schema**, enabling direct comparison between vacuum and ground conditions.
-### `Vacuum_Statistics.csv`
 
+### `Vacuum_Statistics.csv`
 Performance statistics collected under **near-vacuum operating conditions**.
 
-**Usage**
-- Selected when ambient pressure = **0.01 bar**
-
-**Contents**
-- Combustion temperature (`combustion_temperature_K`)
-- Thrust volume (`thrust_volume`)
-- Specific impulse (`specific_impulse_s`)
-- Combustion stability margin (`combustion_stability_margin`)
-- Thermochemical power index (`thermochemical_power_index`)
-- Pressure–Isp–Gamma index (`pressure_isp_gamma_index`)
-- Additional derived thermodynamic and performance metrics
+**Usage**  - Selected when ambient pressure = **0.01 bar**
 
 This dataset is primarily used to analyze **upper-stage and in-space propulsion behavior**.
-### `Ground_Statistics.csv`
 
+### `Ground_Statistics.csv`
 Performance statistics collected under **sea-level operating conditions**.
 
-**Usage**
-- Selected when ambient pressure = **1.01325 bar**
-
-**Contents**
-- Identical column structure to `Vacuum_Statistics.csv`
-- Enables one-to-one comparison between ground and vacuum performance
+**Usage**  - Selected when ambient pressure = **1.01325 bar**
 
 This dataset is primarily used to analyze **launch and lower-atmosphere propulsion behavior**.
+
 ### Key Analyses:
 
 * Combustion Temperature vs Specific Impulse: This analysis explores the relationship between the combustion temperature and specific impulse across different pressure conditions.
